@@ -40,7 +40,9 @@
             <li><a href="#16">Artikel 16 - Kloten</a></li>
             <li><a href="#17">Artikel 17 - Racisme</a></li>
             <li><a href="#18">Artikel 18 - Softaim</a></li>
-            <li><a href="#19">Artikel 19 - One-punch</a></li>            
+            <li><a href="#19">Artikel 19 - One-punch</a></li>    
+            <li><a href="#20">Artikel 20 - Crosshair</a></li>
+            <li><a href="#21">Artikel 21 - Microfoon</a></li>
         </ul>
     </nav>
     </div>
@@ -77,10 +79,20 @@
 
 <section class="regelsDiv">
         <h1>Straffen</h1>
-        <p>De sancties zijn geschikt over 6 categoriën:</p>
+        <p>De sancties zijn geschikt over 6 categoriën:<br></p>
+        <div class="popup" onclick="myFunction()">WAARSCHUWING
+            <span class="popuptext" id="myPopup">Krijgt u binnen de 24 uur meermaals taken voor dezelfde reden?<br>Dan heeft staff het recht deze elke keer te verdubbelen zolang er geen onbestrafte 24 is voorbijgegaan</span>
+          </div>
+          
+          <script>
+          function myFunction() {
+            var popup = document.getElementById("myPopup");
+            popup.classList.toggle("show");
+          }
+          </script>
 
         <div class="categorien">
-            <p><b>Categorie 1 -</b> Warn + 8 taken</p>
+            <p><b>Categorie 1 -</b> Warn + 15 taken</p>
             <p><b>Categorie 2 -</b> 2 uur ban</p>
             <p><b>Categorie 3 -</b> 8 uur ban</p>
             <p><b>Categorie 4 -</b> 24 uur ban</p>
@@ -95,6 +107,7 @@
     <div class="regels">
         <h1 id="1" tabindex="1"><b>Artikel 1 -</b> Roleplay / FailRP (FRP)</h1>
         <p>U dient zich altijd op een realistische manier aan een roleplay scenario te houden.</p>
+        <a href="failrp.html" class="hero-btn2">Meer Info</a>
         <p>Dit wordt bestraft met <b>Categorie 1</b></p>
 
         <h1 id="2" tabindex="1"><b>Artikel 2 -</b> Random Deathmatch (RDM)</h1>
@@ -171,6 +184,14 @@
         <h1 id="19" tabindex="1"><b>Artikel 19 -</b> One-punch</h1>
         <p>U zal nooit one-punch gebruiken.</p>
         <p>Dit wordt bestraft met <b>Categorie 3</b></p>
+
+        <h1 id="20" tabindex="1"><b>Artikel 20 -</b> Crosshair</h1>
+        <p>U zal nooit een crosshair of aim helper gebruiken.</p>
+        <p>Dit wordt bestraft met <b>Categorie 3</b></p>
+
+        <h1 id="21" tabindex="1"><b>Artikel 21 -</b> Microfoon</h1>
+        <p>U bent verplicht een werkend geluid en microfoon te hebben.</p>
+        <p>Dit wordt bestraft met <b>Categorie 1</b></p>
     </div>
 
 </section>

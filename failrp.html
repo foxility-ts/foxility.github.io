@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style2.css">
+        <link rel="icon" href="tinyLogo.png">
+        <title>Foxility FailRP</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Changa:wght@200;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+        <link href="https://www.cssscript.com/demo/sticky.css" rel="stylesheet" type="text/css">
+        <meta name="theme-color" content="#EC8C4F">
+    </head>
+<body>
+
+<script src="./main.js"></script>
+
+<section class="header">
+        <nav>
+            <a><img src="logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="https://discord.gg/invite/CjB5hSKmYZ" target="_blank">DONEER</a></li>
+                    <li><a href="regels.html">REGELS</a></li>
+                    <li><a href="#contact">CONTACTEER ONS</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    
+    <div class="text-box">
+        <h1>FailRP</h1>
+        <p>De onderdelen van FailRP worden hier beter uitgelegd</p>
+    </div>
+</section>
+
+<section class="regelsDiv">
+        <h1>Straf</h1>
+        <p>Elk onderdeel wordt bestraft met 15 taken</p>
+
+        <h1>Regels</h1>
+
+    <div class="regels">
+        <h1 id="1" tabindex="1">Pitten boven 200 km/h</h1>
+        <p>U tikt niemand aan met uw auto met snelheden van 200 km/h of hoger.</p>
+
+        <h1 id="2" tabindex="1">Realisme</h1>
+        <p>U doet dingen die realistisch zijn in het echte leven.</p>
+
+        <h1 id="3" tabindex="1">Wapen gericht</h1>
+        <p>Staat er een wapen op u gericht? Dan dient u te doen wat de richtende persoon zegt.
+            <br>
+        Dingen die als vernederend ervaren kunnen worden zijn niet verplicht uitgevoerd te worden.
+            <br>
+        Denk hierbij aan blaffen, miauwen, etc.</p>
+
+        <h1 id="4" tabindex="1">No Value Of Life - NVOL (Regels Art. 6)</h1>
+        <p>
+        - Staat er een wapen op u gericht? Dan rent u niet weg
+            <br>
+        - U springt niet zomaar van gebouwen
+            <br>
+        - U springt niet voor voertuigen met opzet (Aanzet tot VDM - ATV)
+            <br>
+        - Bent u gegijzeld? Dan gedraagt u zich
+            <br>
+        - U gebruikt uw gezond verstand (Zie Realisme)
+        </p>
+
+        <h1 id="5" tabindex="1">Greenzone</h1>
+        <p>De greenzones zijn plekken waar u veilig zou moeten zijn<br>
+        Iemand pitten, handsuppen, etc. is hier dus NIET toegestaan</p>
+
+        <h1 id="6" tabindex="1">Politie</h1>
+        <p>Hebt u gekozen politie te worden? Gedraag u dan ook zo.<br>
+        Er wordt strenger naar RDM/VDMgekeken bij overheidsberoepen</p>
+
+        <h1>Moet hier nog iets bij? Laat het weten in onze support Discord!</h1>
+        <a href="https://discord.gg/invite/qfDRvjRHkQ" class="hero-btn2">Join</a>
+
+</section>
+
+
+<!---- Contact us ---->
+
+<section class="cta">
+    <h1>Ben je het niet eens met de regels?<br>Heb je nog vragen?</h1>
+    <p>Maak een ticket in onze support discord!</p>
+    <a href="https://discord.gg/invite/qfDRvjRHkQ" id="contact" class="hero-btn" target="_blank">CONTACTEER ONS</a>
+</section>
+
+<!---- Footer text ---->
+
+<section class="footer">
+    <h4>Gemaakt door @m9k.</h4>
+    <p>Copyright © 2023 Foxility's Testserver</p>
+</section>
+
+
+<!---- JavaScript for toggle Menu ---->
+<script>
+
+    var navLinks = document.getElementById("navLinks")
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+<meta property="og:site_name" content="Foxility's Testserver">
+<meta property="og:url" content="http://foxility.c1.biz/regels.html">
+<meta property="og:title" content="Foxility's Testserver - REGELS">
+<meta property="og:description" content="De officiële regels pagina van Foxility's Testserver!">
+<meta property="og:image" content="https://media.discordapp.net/attachments/1111655526758088806/1126674422191902801/foxility.png?ex=65142312&is=6512d192&hm=b5ddad2328674d526bc944818c41431586c95954ac4c79ce1da65b350a2ecfe4&=&width=702&height=702"/>
+
+</body>
+</html>
